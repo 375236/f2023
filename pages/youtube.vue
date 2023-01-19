@@ -1,0 +1,198 @@
+<template>
+    <div>
+        <TheNavigation/>
+        <h1>youtube</h1>
+        
+        <ul v-if="videos">
+            <li v-for="video1 of videos">
+                <NuxtLink :to="'/video/' + video1.name">{{ video1.name }}</NuxtLink>
+            </li>
+        </ul>
+        <NuxtPage />
+    </div>
+</template>
+
+<script setup>
+const videos = [
+    {
+        "number": "16",
+        "id": "sokol",
+        "name": "Данила Сокол",
+        "position": "вратарь",
+        "birthdate": "27.02.2001",
+        "height": null,
+        "weight": null,
+        "foot": null
+    },
+    {
+        "number": "22",
+        "id": "ivanenko",
+        "name": "Евгений Иваненко",
+        "position": "вратарь",
+        "birthdate": "22.12.1995",
+        "height": "1.84",
+        "weight": "83",
+        "foot": "правая"
+    },
+    {
+        "number": null,
+        "id": "karatay",
+        "name": "Артем Каратай",
+        "position": "вратарь",
+        "birthdate": "24.03.2004",
+        "height": null,
+        "weight": null,
+        "foot": null
+    },
+    {
+        "number": "18",
+        "id": "rutsky",
+        "name": "Илья Руцкий",
+        "position": "защитник",
+        "birthdate": "03.12.1999",
+        "height": "1.76",
+        "weight": "68",
+        "foot": "правая"
+    },
+    {
+        "number": "44",
+        "id": "prudnik",
+        "name": "Данила Прудник",
+        "position": "защитник",
+        "birthdate": "04.04.2004",
+        "height": null,
+        "weight": null,
+        "foot": null
+    },
+    {
+        "number": null,
+        "id": "ivanov",
+        "name": "Алексей Иванов",
+        "position": "защитник",
+        "birthdate": "19.02.1997",
+        "height": "1.82",
+        "weight": "68",
+        "foot": "обесильная правая"
+    },
+    {
+        "number": null,
+        "id": "shalashnikov",
+        "name": "Алексей Шалашников",
+        "position": "защитник",
+        "birthdate": "19.02.1997",
+        "height": "1.87",
+        "weight": "84",
+        "foot": "правая"
+    },
+    {
+        "number": "6",
+        "id": "dros",
+        "name": "Кристиан Дрос",
+        "position": "полузащитник",
+        "birthdate": "15.04.1998",
+        "height": "1.85",
+        "weight": null,
+        "foot": "правая"
+    },
+    {
+        "number": "9",
+        "id": "kobets",
+        "name": "Андрей Кобец",
+        "position": "нападающий",
+        "birthdate": "03.01.1997",
+        "height": "1.86",
+        "weight": null,
+        "foot": "левая"
+    },
+    {
+        "number": "13",
+        "id": "poloz",
+        "name": "Владислав Полоз",
+        "position": "полузащитник",
+        "birthdate": "06.06.2001",
+        "height": "1.78",
+        "weight": "70",
+        "foot": null
+    },
+    {
+        "number": "15",
+        "id": "alshanik",
+        "name": "Андрей Альшаник",
+        "position": "полузащитник",
+        "birthdate": "03.05.1999",
+        "height": "1.73",
+        "weight": null,
+        "foot": "правая"
+    },
+    {
+        "number": "81",
+        "id": "zhuk",
+        "name": "Владислав Жук",
+        "position": "полузащитник",
+        "birthdate": "11.06.1994",
+        "height": "1.74",
+        "weight": "76",
+        "foot": "правая"
+    },
+    {
+        "number": "88",
+        "id": "ryabykh",
+        "name": "Николай Рябых",
+        "position": "полузащитник",
+        "birthdate": "11.02.2001",
+        "height": null,
+        "weight": null,
+        "foot": null
+    },
+    {
+        "number": "96",
+        "id": "potorocha",
+        "name": "Валерий Потороча",
+        "position": "полузащитник",
+        "birthdate": "16.04.1996",
+        "height": "1.77",
+        "weight": "73",
+        "foot": "левая"
+    },
+    {
+        "number": "98",
+        "id": "krivosheev",
+        "name": "Дмитрий Кривошеев",
+        "position": "полузащитник",
+        "birthdate": "19.09.1998",
+        "height": "1.72",
+        "weight": "69",
+        "foot": null
+    },
+    {
+        "number": null,
+        "id": "kostrov",
+        "name": "Игорь Костров",
+        "position": "полузащитник",
+        "birthdate": "03.08.1987",
+        "height": "1.76",
+        "weight": "74",
+        "foot": "правая"
+    },
+    {
+        "number": "8",
+        "id": "barsukov",
+        "name": "Евгений Барсуков",
+        "position": "полузащитник",
+        "birthdate": "05.07.1990",
+        "height": "1.78",
+        "weight": "70",
+        "foot": "правая"
+    },
+    {
+        "number": "77",
+        "id": "slesarchuk",
+        "name": "Данила Слесарчук",
+        "position": "нападающий",
+        "birthdate": "20.09.2001",
+        "height": null,
+        "weight": null,
+        "foot": null
+    }
+]
+</script>

@@ -1,0 +1,83 @@
+{
+    "api": {
+        "results": 2,
+        "fixtures": [
+            {
+                "fixture_id": 979733,
+                "league_id": 4295,
+                "league": {
+                    "name": "Coppa",
+                    "country": "Belarus",
+                    "logo": "https://media-3.api-sports.io/football/leagues/486.png",
+                    "flag": "https://media-3.api-sports.io/flags/by.svg"
+                },
+                "event_date": "2023-03-04T00:00:00+00:00",
+                "event_timestamp": 1677888000,
+                "firstHalfStart": null,
+                "secondHalfStart": null,
+                "round": "Quarter-finals",
+                "status": "Time to be defined",
+                "statusShort": "TBD",
+                "elapsed": 0,
+                "venue": null,
+                "referee": null,
+                "homeTeam": {
+                    "team_id": 751,
+                    "team_name": "Slavia Mozyr",
+                    "logo": "https://media-3.api-sports.io/football/teams/751.png"
+                },
+                "awayTeam": {
+                    "team_id": 379,
+                    "team_name": "FC Slutsk",
+                    "logo": "https://media-3.api-sports.io/football/teams/379.png"
+                },
+                "goalsHomeTeam": null,
+                "goalsAwayTeam": null,
+                "score": {
+                    "halftime": null,
+                    "fulltime": null,
+                    "extratime": null,
+                    "penalty": null
+                }
+            },
+            {
+                "fixture_id": 979734,
+                "league_id": 4295,
+                "league": {
+                    "name": "Coppa",
+                    "country": "Belarus",
+                    "logo": "https://media-3.api-sports.io/football/leagues/486.png",
+                    "flag": "https://media-3.api-sports.io/flags/by.svg"
+                },
+                "event_date": "2023-03-11T00:00:00+00:00",
+                "event_timestamp": 1678492800,
+                "firstHalfStart": null,
+                "secondHalfStart": null,
+                "round": "Quarter-finals",
+                "status": "Time to be defined",
+                "statusShort": "TBD",
+                "elapsed": 0,
+                "venue": null,
+                "referee": null,
+                "homeTeam": {
+                    "team_id": 379,
+                    "team_name": "FC Slutsk",
+                    "logo": "https://media-3.api-sports.io/football/teams/379.png"
+                },
+                "awayTeam": {
+                    "team_id": 751,
+                    "team_name": "Slavia Mozyr",
+                    "logo": "https://media-3.api-sports.io/football/teams/751.png"
+                },
+                "goalsHomeTeam": null,
+                "goalsAwayTeam": null,
+                "score": {
+                    "halftime": null,
+                    "fulltime": null,
+                    "extratime": null,
+                    "penalty": null
+                }
+            }
+        ]
+    }
+}
